@@ -11,15 +11,15 @@ function generateCV() {
   document.getElementById("outReligion").innerText = document.getElementById("religion").value;
   document.getElementById("outNationality").innerText = document.getElementById("nationality").value;
 
-  document.getElementById("outHscGroup").innerText = document.getElementById("hscGroup").value;
-  document.getElementById("outHscBoard").innerText = document.getElementById("hscBoard").value;
-  document.getElementById("outHscGpa").innerText = document.getElementById("hscGpa").value;
-  document.getElementById("outHscYear").innerText = document.getElementById("hscYear").value;
-
   document.getElementById("outSscGroup").innerText = document.getElementById("sscGroup").value;
   document.getElementById("outSscBoard").innerText = document.getElementById("sscBoard").value;
   document.getElementById("outSscGpa").innerText = document.getElementById("sscGpa").value;
   document.getElementById("outSscYear").innerText = document.getElementById("sscYear").value;
+
+  document.getElementById("outHscGroup").innerText = document.getElementById("hscGroup").value;
+  document.getElementById("outHscBoard").innerText = document.getElementById("hscBoard").value;
+  document.getElementById("outHscGpa").innerText = document.getElementById("hscGpa").value;
+  document.getElementById("outHscYear").innerText = document.getElementById("hscYear").value;
 
   document.getElementById("cvForm").style.display = "none";
   document.getElementById("cvOutput").style.display = "block";
@@ -28,3 +28,4 @@ function generateCV() {
 function printCV() {
   window.print();
 }
+
